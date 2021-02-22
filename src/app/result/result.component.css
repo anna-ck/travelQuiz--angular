@@ -1,0 +1,14 @@
+.resultContainer {
+    width: 300px;
+    margin: 0 auto;
+    background-color:white;
+    border: 5px solid darkorange;
+    color: black;
+    padding: 40px
+}
+
+button {
+    background-color:darkorange;
+    padding: 1rem;
+    border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+<p>{{id}} / 12</p>
+<div>
+    <app-progress-bar *ngIf='remainingTime > 0' [remainingTime]='remainingTime'></app-progress-bar>
+    <p class='info' *ngIf='remainingTime === 0'>Time's up!</p>
+    <div>
+      <img
+        src="assets/images/{{question.img}}.jpg"
+        style="max-height: 300px;">
+    </div>
+        <div *ngFor="let answer of question.answers"
+        (click)='checkAnswer(answer.key)'>
+        <button 
+            [disabled] = 'isAnswer'
+            [ngClass]="{'correct': correctAnswer && answer.key === correctAnswer}"
+            [ngClass]="{'uncorrect': selectedAnswer === answer.key && answer.key !== correctAnswer}">
+            {{ answer.text }}
+        </button>
+</div>
+  </div>
+<button id='next'[disabled] = '!isAnswer' (click)='goToNextQuestion()'>Next question</button>

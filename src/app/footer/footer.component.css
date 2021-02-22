@@ -1,0 +1,9 @@
+.footer {
+    height: 7vh;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    color: black;
+    padding-left: 1rem
+}

@@ -1,0 +1,22 @@
+button {
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto;
+    height: 2rem
+}
+
+#next {
+    margin-top: 1rem
+}
+
+.info {
+    color: red
+}
+
+.correct {
+    background-color: green;
+}
+
+.uncorrect {
+    background-color: red;
+}

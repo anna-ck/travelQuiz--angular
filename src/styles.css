@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+    min-height: 100vh;
+    background: linear-gradient( -24.5deg, rgb(254, 220, 61) 0%, rgb(254, 220, 61) 48%, rgb(38, 34, 40) 48%, rgb(38, 34, 40) 100%);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', Courier, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
