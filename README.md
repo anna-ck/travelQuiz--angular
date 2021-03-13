@@ -1,4 +1,4 @@
-## TravelQuiz (Angular)
+## TravelQuiz (Angular) -- in progress
 
 ### General info
 TravelQuiz is a quiz app written in Angular that checks user knowledge about the most iconic places in European cities. The user answers the question by clicking on the appropriate button while a progress bar shows the time remaining.
